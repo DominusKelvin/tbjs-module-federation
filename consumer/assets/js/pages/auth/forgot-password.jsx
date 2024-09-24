@@ -1,6 +1,6 @@
 import { Link, Head, useForm } from '@inertiajs/react'
 import InputEmail from '@/components/InputEmail.jsx'
-import InputButton from '@/components/InputButton.jsx'
+import InputButton from 'federation_provider/components/InputButton'
 import { useMemo } from 'react'
 
 export default function ForgotPassword() {
