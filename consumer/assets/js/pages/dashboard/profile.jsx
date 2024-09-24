@@ -1,6 +1,6 @@
 import { Link, Head, usePage, useForm, router } from '@inertiajs/react'
 
-import AppLayout from '@/layouts/AppLayout.jsx'
+import AppLayout from 'federation_provider/layouts/AppLayout'
 
 import InputText from 'federation_provider/components/InputText'
 import InputPassword from 'federation_provider/components/InputPassword'
