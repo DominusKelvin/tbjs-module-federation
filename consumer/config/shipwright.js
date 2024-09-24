@@ -13,13 +13,15 @@ module.exports.shipwright = {
               federation_provider:
                 'federation_provider@http://localhost:1338/mf-manifest.json'
             },
-            react: {
-              singleton: true,
-              requiredVersion: dependencies.react
-            },
-            'react-dom': {
-              singleton: true,
-              requiredVersion: dependencies['react-dom']
+            shared: {
+              react: {
+                singleton: true,
+                requiredVersion: dependencies.react
+              },
+              'react-dom': {
+                singleton: true,
+                requiredVersion: dependencies['react-dom']
+              }
             }
           })
         ])

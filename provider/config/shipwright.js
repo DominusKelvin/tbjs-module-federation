@@ -24,13 +24,15 @@ module.exports.shipwright = {
                 './assets/js/components/InputButton.jsx',
               './layouts/AppLayout': './assets/js/layouts/AppLayout.jsx'
             },
-            react: {
-              singleton: true,
-              requiredVersion: dependencies['react']
-            },
-            'react-dom': {
-              singleton: true,
-              requiredVersion: dependencies['react-dom']
+            shared: {
+              react: {
+                singleton: true,
+                requiredVersion: dependencies['react']
+              },
+              'react-dom': {
+                singleton: true,
+                requiredVersion: dependencies['react-dom']
+              }
             }
           })
         ])
