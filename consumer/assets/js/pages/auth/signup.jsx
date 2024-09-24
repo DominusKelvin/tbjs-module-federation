@@ -1,7 +1,7 @@
 import { Link, Head, useForm } from '@inertiajs/react'
 import { useMemo } from 'react'
 
-import InputText from '@/components/InputText.jsx'
+import InputText from 'federation_provider/components/InputText'
 import InputEmail from 'federation_provider/components/InputEmail'
 import InputPassword from 'federation_provider/components/InputPassword'
 import InputButton from 'federation_provider/components/InputButton'

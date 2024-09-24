@@ -2,7 +2,7 @@ import { Link, Head, usePage, useForm, router } from '@inertiajs/react'
 
 import AppLayout from '@/layouts/AppLayout.jsx'
 
-import InputText from '@/components/InputText.jsx'
+import InputText from 'federation_provider/components/InputText'
 import InputPassword from 'federation_provider/components/InputPassword'
 import InputEmail from 'federation_provider/components/InputEmail'
 import InputButton from 'federation_provider/components/InputButton'
