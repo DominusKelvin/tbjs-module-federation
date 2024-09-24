@@ -1,6 +1,6 @@
 import { Link, Head, useForm } from '@inertiajs/react'
 import { useMemo } from 'react'
-import InputPassword from '@/components/InputPassword'
+import InputPassword from 'federation_provider/components/InputPassword'
 import InputButton from 'federation_provider/components/InputButton'
 
 export default function ResetPassword({ token }) {

@@ -3,7 +3,7 @@ import { useMemo } from 'react'
 
 import InputText from '@/components/InputText.jsx'
 import InputEmail from 'federation_provider/components/InputEmail'
-import InputPassword from '@/components/InputPassword.jsx'
+import InputPassword from 'federation_provider/components/InputPassword'
 import InputButton from 'federation_provider/components/InputButton'
 import GoogleButton from 'federation_provider/components/GoogleButton'
 
