@@ -1,5 +1,5 @@
 import { Link, Head, useForm } from '@inertiajs/react'
-import InputEmail from '@/components/InputEmail.jsx'
+import InputEmail from 'federation_provider/components/InputEmail'
 import InputButton from 'federation_provider/components/InputButton'
 import { useMemo } from 'react'
 
