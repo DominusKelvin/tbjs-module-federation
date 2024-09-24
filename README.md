@@ -1,4 +1,4 @@
-# Module Federation in The Boring JavaScript
+# Module Federation in The Boring JavaScript Stack
 This is the accompanying repo for my blog post on [Implementing Module Federation in The Boring JavaScript Stack](https://dominuskelvin.dev/blog/module-federation-in-the-boring-javascript-stack).
 
 ## Running this project locally
