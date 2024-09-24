@@ -4,7 +4,7 @@ const { dependencies } = require('../package.json')
 module.exports.shipwright = {
   build: {
     dev: {
-      assetPrefix: 'http://localhost:1338'
+      assetPrefix: true
     },
     tools: {
       rspack: (config, { appendPlugins }) => {
