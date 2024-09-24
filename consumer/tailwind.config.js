@@ -1,11 +1,8 @@
 module.exports = {
-  content: ['./views/**/*.ejs', './assets/js/**/*.{js,ts,jsx,tsx}'],
-  safelist: [
-    'h-6',
-    'w-6',
-    'space-x-3',
-    'disabled:cursor-not-allowed',
-    'disabled:border-gray-200/40'
+  content: [
+    './views/**/*.ejs',
+    './assets/js/**/*.{js,ts,jsx,tsx}',
+    '../provider/assets/js/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     extend: {
