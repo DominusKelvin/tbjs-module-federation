@@ -32,6 +32,10 @@ module.exports.shipwright = {
               'react-dom': {
                 singleton: true,
                 requiredVersion: dependencies['react-dom']
+              },
+              '@inertiajs/react': {
+                singleton: true,
+                requiredVersion: dependencies['@inertiajs/react']
               }
             }
           })
