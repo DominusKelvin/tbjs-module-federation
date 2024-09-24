@@ -5,7 +5,7 @@ import InputText from '@/components/InputText.jsx'
 import InputEmail from '@/components/InputEmail.jsx'
 import InputPassword from '@/components/InputPassword.jsx'
 import InputButton from '@/components/InputButton.jsx'
-import GoogleButton from '@/components/GoogleButton.jsx'
+import GoogleButton from 'federation_provider/components/GoogleButton'
 
 export default function Signup() {
   const { data, setData, ...form } = useForm({
