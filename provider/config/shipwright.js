@@ -13,12 +13,16 @@ module.exports.shipwright = {
           new ModuleFederationPlugin({
             name: 'federation_provider',
             exposes: {
-              './GoogleButton': './assets/js/components/GoogleButton.jsx',
-              './InputEmail': './assets/js/components/InputEmail.jsx',
-              './InputText': './assets/js/components/InputText.jsx',
-              './InputPassword': './assets/js/components/InputPassword.jsx',
-              './InputButton': './assets/js/components/InputButton.jsx',
-              './AppLayout': './assets/js/layouts/AppLayout.jsx'
+              './components/GoogleButton':
+                './assets/js/components/GoogleButton.jsx',
+              './components/InputEmail':
+                './assets/js/components/InputEmail.jsx',
+              './components/InputText': './assets/js/components/InputText.jsx',
+              './components/InputPassword':
+                './assets/js/components/InputPassword.jsx',
+              './components/InputButton':
+                './assets/js/components/InputButton.jsx',
+              './layouts/AppLayout': './assets/js/layouts/AppLayout.jsx'
             },
             react: {
               singleton: true,
