@@ -22,6 +22,7 @@
     "sails-hook-wish": "^0.0.9"
   },
   "devDependencies": {
+    "@module-federation/enhanced": "^0.6.6",
     "@rsbuild/plugin-react": "^1.0.2",
     "@types/node": "^22.5.5",
     "create-sails-generator": "^0.0.3",
