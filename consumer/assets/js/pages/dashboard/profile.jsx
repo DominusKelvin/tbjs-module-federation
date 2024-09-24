@@ -5,7 +5,7 @@ import AppLayout from '@/layouts/AppLayout.jsx'
 import InputText from '@/components/InputText.jsx'
 import InputPassword from '@/components/InputPassword.jsx'
 import InputEmail from '@/components/InputEmail.jsx'
-import InputButton from 'federation_provider/components/InputButton.jsx'
+import InputButton from 'federation_provider/components/InputButton'
 
 Profile.layout = (page) => <AppLayout children={page} />
 export default function Profile() {
