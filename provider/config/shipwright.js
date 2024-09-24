@@ -1,6 +1,6 @@
 const { pluginReact } = require('@rsbuild/plugin-react')
-import { ModuleFederationPlugin } from '@module-federation/enhanced/rspack'
-
+const { ModuleFederationPlugin } = require('@module-federation/enhanced/rspack')
+const { dependencies } = require('../package.json')
 module.exports.shipwright = {
   build: {
     dev: {
@@ -20,7 +20,14 @@ module.exports.shipwright = {
               './InputButton': './assets/js/components/InputButton.jsx',
               './AppLayout': './assets/js/layouts/AppLayout.jsx'
             },
-            shared: ['react', 'react-dom']
+            react: {
+              singleton: true,
+              requiredVersion: dependencies['react']
+            },
+            'react-dom': {
+              singleton: true,
+              requiredVersion: dependencies['react-dom']
+            }
           })
         ])
       }
